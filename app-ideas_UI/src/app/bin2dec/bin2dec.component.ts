@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
 
 @Component({
-  selector: 'app-bin2dec',
-  templateUrl: './bin2dec.component.html',
-  styleUrls: ['./bin2dec.component.css']
+    selector: 'app-bin2dec',
+    templateUrl: './bin2dec.component.html',
+    styleUrls: ['./bin2dec.component.css'],
 })
 export class Bin2decComponent implements OnInit {
+    constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+    ngOnInit(): void {}
 }
